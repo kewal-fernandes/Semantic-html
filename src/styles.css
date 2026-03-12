@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:  'Lato', sans-serif;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 2rem;
+  margin-block: 1rem;
+  /* background: orangered; */
+}
+
+header > nav > ul {
+  display: flex;
+  padding-inline: 1rem;
+  list-style: none;
+}
+
+header > nav > ul > li {
+  padding-inline: 1rem;
+}
+
+header >nav > ul > li > a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  color: purple;
 }
