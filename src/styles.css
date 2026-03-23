@@ -12,9 +12,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-inline: 2rem;
-  margin-block: 1rem;
-  /* background: orangered; */
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 header > nav > ul {
@@ -34,4 +34,12 @@ header >nav > ul > li > a {
   font-weight: 600;
   letter-spacing: .1rem;
   color: purple;
+}
+
+.logo svg {
+  transition: transform 0.25s ease;
+}
+
+.logo:hover svg {
+  transform: scale(1.04);
 }
